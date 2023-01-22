@@ -16,11 +16,11 @@ const Navbar = () => {
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden xl:block"><a href="#">Home</a></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 hidden md:mx-6  xl:hidden"><i class="fa-solid fa-house text-2xl"></i></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden xl:block"><a href="#">Serie tv</a></li>
-                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 block xl:hidden"><i class="fa-solid fa-tv text-2xl"></i></li>
+                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200 hidden md:mx-6 sm:block xl:hidden"><i class="fa-solid fa-tv text-2xl"></i></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden xl:block"><a href="#">Film</a></li>
-                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 block xl:hidden"><i class="fa-solid fa-film text-2xl"></i></li>
+                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200 hidden md:mx-6 sm:block xl:hidden"><i class="fa-solid fa-film text-2xl"></i></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden xl:block"><a href="#">Nuovi e popolari</a></li>
-                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 block xl:hidden"><i class="fa-solid fa-fire text-2xl"></i></li>
+                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden sm:block xl:hidden"><i class="fa-solid fa-fire text-2xl"></i></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden xl:block"><a href="#">La mia lista</a></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden sm:block xl:hidden"><i class="fa-solid fa-list text-2xl"></i></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200 md:mx-6 hidden xl:block"><a href="#">Sfoglia per lingua</a></li>
@@ -37,9 +37,9 @@ const Navbar = () => {
                 </div>
             </div>
         
-           <div className="absolute top-[200px] md:top-[200px] lg:top-[250px] xl:top-[350px]">
+           <div className="absolute top-[100px] sm:top-[200px] md:top-[200px] lg:top-[250px] xl:top-[350px]">
             <img className="w-52 xl:w-96"src={titleRick} alt="rick and morty title"></img>
-            <p className="text-xl bg-black md:bg-transparent bg-opacity-50   md:w-100 lg:text-3xl lg:my-5">Il brillante scienziato ubriacone Rick va alla scoperta di altri mondi e <br></br> dimensioni insieme a Morty, il suo inquieto nipote adolescente.</p>
+            <p className="hidden sm:block sm:text-xl sm:bg-black md:bg-transparent sm:bg-opacity-50 md:w-100 lg:text-3xl lg:my-5">Il brillante scienziato ubriacone Rick va alla scoperta di altri mondi e <br></br> dimensioni insieme a Morty, il suo inquieto nipote adolescente.</p>
             
             <div className="flex">
               <button className="bg-white rounded-md hover:bg-opacity-90 text-black text-lg hidden sm:hidden md:block lg:text-3xl p-3 my-8 mr-5">

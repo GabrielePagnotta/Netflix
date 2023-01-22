@@ -4,8 +4,7 @@ import trailer from '../imgs-and-videos/rick-and-morty.mp4'
 import user from '../imgs-and-videos/user-wp.webp'
 import titleRick from '../imgs-and-videos/rick-and-morty-title.png'
 
-
-const Navbar = () => {
+1const Navbar = () => {
   return (
     <div>
       <section className='bg-gradient-to-b from-black to-transparent relative z-10 text-white  flex justify-between px-10 py-2'>
@@ -19,7 +18,7 @@ const Navbar = () => {
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Film</a></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Nuovi e popolari</a></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">La mia lista</a></li>
-                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Sfoglia per lingua</a></li>
+                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Sfoglia per lingua</a></li>.
                 </ul>
             </div>
 

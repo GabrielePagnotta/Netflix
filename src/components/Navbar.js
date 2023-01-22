@@ -18,7 +18,7 @@ import titleRick from '../imgs-and-videos/rick-and-morty-title.png'
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Film</a></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Nuovi e popolari</a></li>
                   <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">La mia lista</a></li>
-                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Sfoglia per lingua</a></li>.
+                  <li class="float-left m-4 hover:text-slate-200 hover:duration-200"><a href="#">Sfoglia per lingua</a></li>
                 </ul>
             </div>
 

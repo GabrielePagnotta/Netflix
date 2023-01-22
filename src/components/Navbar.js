@@ -4,7 +4,7 @@ import trailer from '../imgs-and-videos/rick-and-morty.mp4'
 import user from '../imgs-and-videos/user-wp.webp'
 import titleRick from '../imgs-and-videos/rick-and-morty-title.png'
 
-1const Navbar = () => {
+const Navbar = () => {
   return (
     <div>
       <section className='bg-gradient-to-b from-black to-transparent relative z-10 text-white  flex justify-between px-10 py-2'>
